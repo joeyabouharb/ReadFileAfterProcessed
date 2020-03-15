@@ -4,6 +4,7 @@
 namespace FileWatcher
 {
     using System;
+    using System.IO;
     using System.Linq;
     using System.Windows.Forms;
     using FileWriter;
@@ -33,14 +34,20 @@ namespace FileWatcher
         {
             if (!string.IsNullOrEmpty(msg))
             {
-                RM_PROCESS_INFO[] result;
-                do
-                {
-                    result = ProcessManager.FindLockerProcesses(msg);
-                }
-                while (result.Length != 0);
-                MessageBox.Show("File Write Complete!");
+                Watcher watcher = new Watcher(msg, this.OnFinish);
+                watcher.Run();
             }
+        }
+
+        private void OnFinish(string path)
+        {
+            RM_PROCESS_INFO[] result;
+            do
+            {
+                result = ProcessManager.FindLockerProcesses(path);
+            }
+            while (result.Length != 0);
+            MessageBox.Show("File Write Complete!");
         }
     }
 }

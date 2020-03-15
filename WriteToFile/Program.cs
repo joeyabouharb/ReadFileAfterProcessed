@@ -20,15 +20,13 @@ namespace WriteToFile
             string date = DateTime.Now.ToString("ddMMyyyyHHmmss");
             string path = $@"C:\Users\joeya\source\repos\FileWatcher\FileWatcher\bin\Debug\{date}.txt";
             Console.WriteLine(path);
+            Thread.Sleep(4000);
             using (System.IO.StreamWriter file = new System.IO.StreamWriter(path))
             {
-
-                file.WriteLine("HelloWorld");
-                Thread.Sleep(10000);
+                file.WriteLine("Hello....World");
+                Thread.Sleep(14000);
                 file.WriteLine("Hello World!");
             }
-
-
         }
     }
 }

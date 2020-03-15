@@ -14,28 +14,33 @@ namespace FileWriter
 
     public class Watcher
     {
+        public Watcher(string path, Action<string> onFinish)
+        {
+            this.DirPath = path;
+            this.Directory = Path.GetDirectoryName(path);
+            this.FileToWatch = Path.GetFileName(path);
+            this.OnFinish = onFinish;
+        }
+
         private string FileToWatch { get; set; }
 
         private string Directory { get; set; }
 
-        [PermissionSet(SecurityAction.Demand, Name = "FullTrust")]
-        private void Run()
-        {
-            using (FileSystemWatcher watcher = new FileSystemWatcher(this.Directory, this.FileToWatch))
-            {
-                watcher.Created += this.WatcherCreated;
-                watcher.Changed += this.WatcherChanged;
-            }
-        }
+        private string DirPath { get; set; }
 
-        private void WatcherChanged(object sender, FileSystemEventArgs e)
+        private Action<string> OnFinish { get; set; }
+
+        [PermissionSet(SecurityAction.Demand, Name = "FullTrust")]
+        public void Run()
         {
-            throw new NotImplementedException();
+            FileSystemWatcher watcher = new FileSystemWatcher(this.Directory, this.FileToWatch);
+            watcher.Created += new FileSystemEventHandler(this.WatcherCreated);
+            watcher.EnableRaisingEvents = true;
         }
 
         private void WatcherCreated(object sender, FileSystemEventArgs e)
         {
-            throw new NotImplementedException();
+            this.OnFinish(this.DirPath);
         }
     }
 }
