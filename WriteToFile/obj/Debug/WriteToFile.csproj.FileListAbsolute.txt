@@ -1,0 +1,6 @@
+C:\Users\joeya\source\repos\FileWatcher\WriteToFile\bin\Debug\WriteToFile.exe.config
+C:\Users\joeya\source\repos\FileWatcher\WriteToFile\bin\Debug\WriteToFile.exe
+C:\Users\joeya\source\repos\FileWatcher\WriteToFile\bin\Debug\WriteToFile.pdb
+C:\Users\joeya\source\repos\FileWatcher\WriteToFile\obj\Debug\WriteToFile.csprojAssemblyReference.cache
+C:\Users\joeya\source\repos\FileWatcher\WriteToFile\obj\Debug\WriteToFile.exe
+C:\Users\joeya\source\repos\FileWatcher\WriteToFile\obj\Debug\WriteToFile.pdb

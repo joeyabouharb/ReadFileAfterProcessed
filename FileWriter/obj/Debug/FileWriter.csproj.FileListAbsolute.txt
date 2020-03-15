@@ -1,0 +1,5 @@
+C:\Users\joeya\source\repos\FileWatcher\FileWriter\obj\Debug\FileWriter.csprojAssemblyReference.cache
+C:\Users\joeya\source\repos\FileWatcher\FileWriter\bin\Debug\FileWriter.dll
+C:\Users\joeya\source\repos\FileWatcher\FileWriter\bin\Debug\FileWriter.pdb
+C:\Users\joeya\source\repos\FileWatcher\FileWriter\obj\Debug\FileWriter.dll
+C:\Users\joeya\source\repos\FileWatcher\FileWriter\obj\Debug\FileWriter.pdb

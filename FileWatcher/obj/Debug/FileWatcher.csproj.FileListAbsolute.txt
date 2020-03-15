@@ -1,0 +1,15 @@
+C:\Users\joeya\source\repos\FileWatcher\FileWatcher\bin\Debug\FileWatcher.exe.config
+C:\Users\joeya\source\repos\FileWatcher\FileWatcher\bin\Debug\FileWatcher.exe
+C:\Users\joeya\source\repos\FileWatcher\FileWatcher\bin\Debug\FileWatcher.pdb
+C:\Users\joeya\source\repos\FileWatcher\FileWatcher\obj\Debug\FileWatcher.csprojAssemblyReference.cache
+C:\Users\joeya\source\repos\FileWatcher\FileWatcher\obj\Debug\FileWatcher.Form1.resources
+C:\Users\joeya\source\repos\FileWatcher\FileWatcher\obj\Debug\FileWatcher.Properties.Resources.resources
+C:\Users\joeya\source\repos\FileWatcher\FileWatcher\obj\Debug\FileWatcher.csproj.GenerateResource.cache
+C:\Users\joeya\source\repos\FileWatcher\FileWatcher\obj\Debug\FileWatcher.exe
+C:\Users\joeya\source\repos\FileWatcher\FileWatcher\obj\Debug\FileWatcher.pdb
+C:\Users\joeya\source\repos\FileWatcher\FileWatcher\bin\Debug\FileWriter.dll
+C:\Users\joeya\source\repos\FileWatcher\FileWatcher\bin\Debug\WriteToFile.exe
+C:\Users\joeya\source\repos\FileWatcher\FileWatcher\bin\Debug\FileWriter.pdb
+C:\Users\joeya\source\repos\FileWatcher\FileWatcher\bin\Debug\WriteToFile.pdb
+C:\Users\joeya\source\repos\FileWatcher\FileWatcher\bin\Debug\WriteToFile.exe.config
+C:\Users\joeya\source\repos\FileWatcher\FileWatcher\obj\Debug\FileWatcher.csproj.CopyComplete
